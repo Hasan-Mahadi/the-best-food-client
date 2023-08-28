@@ -1,0 +1,15 @@
+.full-page-bg {
+    background-image: url('https://img.freepik.com/free-photo/tasty-pizza-near-ingredients_23-2147772080.jpg?w=1380&t=st=1692299674~exp=1692300274~hmac=7b8d3c763fc71be6a6638dda301a9219aa65a9fd1a212cd2af3dd487a65fe1ad');
+    background-size: cover;
+    
+   position: relative;
+    margin-right:0;
+    background-position: center bottom ;
+    background-position:inherit ;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100%;
+     /* Set the height to cover the full viewport height */
+    margin: 0; /* Remove default margin to cover the entire page */
+    padding: 0; /* Remove default padding to cover the entire page */
+  }

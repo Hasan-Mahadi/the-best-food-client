@@ -1,0 +1,15 @@
+.full-page-bg6 {
+    background-image: url('https://img.freepik.com/free-photo/top-view-pasta-with-ingredients_141793-10082.jpg?w=1060&t=st=1692546017~exp=1692546617~hmac=4ea6b51becccbe6d1c14fe9c32f87c944e6e90a089d77f3426b5958718b22fe5');
+    background-size: cover;
+    
+   position: relative;
+    margin-right:0;
+    background-position: center bottom ;
+    background-position:inherit ;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100%;
+     /* Set the height to cover the full viewport height */
+    margin: 0; /* Remove default margin to cover the entire page */
+    padding: 0; /* Remove default padding to cover the entire page */
+  }

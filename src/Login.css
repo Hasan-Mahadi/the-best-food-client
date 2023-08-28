@@ -1,0 +1,15 @@
+.full-page-bg1 {
+    background-image: url('https://img.freepik.com/free-photo/top-view-gray-platten-dark-blue-background-photo-darkness-iron-color-green-blue-sea_179666-17841.jpg?w=1060&t=st=1692300516~exp=1692301116~hmac=2f3172aa2b273558601564bef671b009d4e12f9ee1da990aa6b1ffb9c3850ab8');
+    background-size: cover;
+    
+   position: relative;
+    margin-right:0;
+    background-position: center bottom ;
+    background-position:inherit ;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100%;
+     /* Set the height to cover the full viewport height */
+    margin: 0; /* Remove default margin to cover the entire page */
+    padding: 0; /* Remove default padding to cover the entire page */
+  }

@@ -1,0 +1,76 @@
+[
+    {
+        "id": "e1a7c529-f91b-4ef5-a661-c2317c5c314e",
+        
+        "name": "Gyro Sandwhic",
+        
+        "price": 20,
+       
+        "ratings": 5,
+        
+        "img": "https://ibb.co/t3Jy0xs"
+        
+    },
+    {
+        "id": "e1a7c529-f91b-4ef5-a661-c2317c5c3139e",
+        
+        "name": "Cake",
+        
+        "price": 30,
+       
+        "ratings": 4.5,
+        
+        "img": "https://ibb.co/k0mKQpS"
+        
+    },
+    {
+        "id": "e1a7c529-f91b-4ef5-a661-c2317c5c3140e",
+        
+        "name": "Green Beans",
+        
+        "price": 100,
+       
+        "ratings": 4,
+        
+        "img": "https://ibb.co/XXLWjgr"
+        
+    },
+    {
+        "id": "e1a7c529-f91b-4ef5-a661-c2317c5c3141e",
+        
+        "name": "Chicken Pot Pie",
+        
+        "price": 20,
+       
+        "ratings": 4.5,
+        
+        "img": "https://ibb.co/dKXk3qv"
+        
+    },
+    {
+        "id": "e1a7c529-f91b-4ef5-a661-c2317c5c3142e",
+        
+        "name": "Green Salad",
+        
+        "price": 200,
+       
+        "ratings": 5,
+        
+        "img": "https://ibb.co/hDHTszv"
+        
+    },
+    {
+        "id": "e1a7c529-f91b-4ef5-a661-c2317c5c3143e",
+        
+        "name": "Pizza",
+        
+        "price": 10,
+       
+        "ratings": 3.5,
+        
+        "img": "https://ibb.co/NYTv8Ts"
+        
+    }
+   
+
+]
