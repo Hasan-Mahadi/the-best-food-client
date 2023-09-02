@@ -41,7 +41,7 @@ const handlelogin = event =>{
      
         <div className='full-page-bg1'>
             <Container className=' '>
-          <h1 className='text-center pt-5 mb-5 font-bold text-violet-100		'>Please Login !!!</h1>
+          <h1 className='text-center pt-5 mb-5 font-bold font-bold text-black		'>Please Login !!!</h1>
 
           <div className=''>
           <div className='w-full  '>

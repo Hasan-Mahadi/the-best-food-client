@@ -1,5 +1,5 @@
-.full-page-bg1 {
-    background-image: url('  https://img.freepik.com/free-photo/surface-with-blue-rudders-anchors-summer_23-2147632717.jpg?w=1060&t=st=1693238202~exp=1693238802~hmac=36963ec451fa6a26332bc6c9ff8e63e815da2a05e0f1893ea0634f81de3d7ada');
+.full-page-bg1t {
+    background-image: url('https://img.freepik.com/free-photo/top-view-gray-platten-dark-blue-background-photo-darkness-iron-color-green-blue-sea_179666-17841.jpg?w=1060&t=st=1692300516~exp=1692301116~hmac=2f3172aa2b273558601564bef671b009d4e12f9ee1da990aa6b1ffb9c3850ab8');
     background-size: cover;
     
    position: relative;
@@ -13,6 +13,3 @@
     margin: 0; /* Remove default margin to cover the entire page */
     padding: 0; /* Remove default padding to cover the entire page */
   }
-
-
-

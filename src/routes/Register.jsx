@@ -19,6 +19,15 @@ const Register = () => {
     const photo = form.photo.value;
     const password = form.password.value;
 
+
+    if (password.length <6){
+     setAccepted('*** password must be 6 characters or longer')
+      return
+     }
+
+
+
+
     console.log(name,email,photo,password)
     createUser(  email, password)
     .then(result => {
@@ -88,6 +97,7 @@ const Register = () => {
    
 
  </Form.Group>
+ <p className='text-orange-400	'>*** Password must be 6 characters long.</p>
 
  <Form.Check 
 
