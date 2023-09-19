@@ -8,6 +8,8 @@ import Marquee from "react-fast-marquee";
 import './Home.css';
 import Rating from 'react-rating';
 import { Link } from 'react-router-dom';
+import Lottie from 'lottie-react' 
+import Best from '../../../../assets/Best Food.json'
 
 
 
@@ -16,7 +18,7 @@ const Home = () => {
 
     const [Items, setItems] = useState([])
 
-    fetch('http://localhost:5000/allData')
+    fetch('https://the-best-food-server-side-hasan-mahadi.vercel.app/allData')
         .then((response) => response.json())
         .then((data) => setItems(data));
     console.log(Items);
@@ -34,15 +36,21 @@ const Home = () => {
 
 <section className='' >
   
-     <div className='flex m-20 mt-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500    '>
-        <div>
+     <div className='flex m-20 rounded-lg mt-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  sm:flex  '>
+        <div className='sm:text-center'>
             <h1 className='ms-20' >The <span className='text-orange-600 text-8xl font-bold italic   hover:text-2xl transform hover:scale-110 hover:rotate-12'>Fastest</span>  <br />Delivery <br /><span className='text-orange-400 text-8xl	font-bold'>In Your City...</span></h1>
 
         </div>
 
+
         <div>
-            <img className='rounded-lg w-9/12 ms-40  text-xl hover:text-2xl transform hover:scale-110 hover:rotate-12' src='/public/chefs-2.jpg' alt="" />
+            <Lottie className='rounded-lg sm:text-center' animationData={Best} loop={true}/>
         </div>
+
+     
+     {/* <div>
+     <img className='rounded-lg w-9/12 ms-40  text-xl hover:text-2xl transform hover:scale-110 hover:rotate-12' src="https://img.freepik.com/free-photo/smiling-young-male-baker-leaning-table-with-variety-baked-bread-laptop_23-2147883512.jpg?w=1060&t=st=1693922331~exp=1693922931~hmac=49245cb2bd77639e035376e467508cadd85f2168c2b41d6c7beddfea9bc5cec0" alt="" />
+     </div> */}
 
     </div>
 
@@ -57,7 +65,7 @@ const Home = () => {
             3. Chicken nuggets
             4. Pizza
             5. Hot dogs
-            6. Tacos
+            6. Tomato
             7. Burritos
             8. Fried chicken
             9. Milkshakes
@@ -97,7 +105,7 @@ const Home = () => {
 
                 <img
                     className=" rounded-lg "
-                    src='/public/cake.avif'
+                    src='https://img.freepik.com/free-photo/joyful-birthday-celebration-with-delicious-chocolate-cake-generative-ai_188544-9589.jpg?w=1380&t=st=1693933598~exp=1693934198~hmac=a92ace26c33d534aba435c937bf6c375d3264d7bf7e33a38dfa229a4175b1d31'
                     alt="First slide"
                 />
 
@@ -111,7 +119,7 @@ const Home = () => {
             <Carousel.Item interval={500}>
                 <img
                     className="rounded-lg  "
-                    src='/public/t1.avif'
+                    src='https://img.freepik.com/free-photo/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai_157027-1734.jpg?w=1380&t=st=1693933490~exp=1693934090~hmac=d114e1b0f89eca4bea3eb991e795df6057efbcc96bd90ec75af0eadfc3d42816'
                     alt="Second slide"
                 />
                 <Carousel.Caption>
@@ -122,7 +130,7 @@ const Home = () => {
             <Carousel.Item>
                 <img
                     className='rounded-lg '
-                    src='/public/pizza-1.avif'
+                    src='https://img.freepik.com/free-photo/freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai_188544-12347.jpg?w=1380&t=st=1693933214~exp=1693933814~hmac=3768487fd4008e1d8b02e862d261cf4466c8e35ac9f0d45d5b5420c22edd3d2d'
                     alt="Third slide"
                 />
                 <Carousel.Caption>
@@ -180,7 +188,7 @@ const Home = () => {
 
 
     {/* API part */}
-h
+
     <section>
         <div className='text-center'>
             <h3 className='mt-20 text-purple-700 text-4xl	italic'>Product</h3>
